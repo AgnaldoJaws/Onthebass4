@@ -1,0 +1,155 @@
+@CHARSET "UTF-8";
+
+@media screen and (min-width: 1px) and (max-width: 700px) {
+	
+	body { 
+	
+	background:url(../inc/images/background/patterns/fundo5.png);
+	
+}
+	
+	.espaco{
+	
+	
+	height: 250px;
+	}
+	/****MENU*****/
+	
+	.top {
+	background-color: #444444;
+	margin-top: 4px;
+	height: 47px;
+	padding: -5px;
+	
+	}
+	#a {
+	margin-top: -50px;
+	margin-left: 190px;
+	color: white;
+	
+	}
+	
+	
+	#flip h2 {
+	color: white;
+	margin-top: -48px;
+	margin-left: -120px;
+	font-size: 25px;
+	}
+#panel {
+		padding: 5px;
+		text-align: center;
+		border: solid 1px #c3c3c3;
+		padding: 28px;
+		display: none;
+		height: 157px;
+		background:#444444;
+		
+	}
+	
+	#panel li {
+		list-style-type: none;
+		float: none;
+		padding: 0px;
+	}
+	#panel li a {
+		border-bottom: 2px solid black;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 18px;
+		font-family: Helvetica;
+		
+	}
+	
+	#panel li a:hover {
+		color: black;
+		height: 27px;
+		margin-top: -10px;
+		background-color:white;
+	}
+	#panel ul li a {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 10px 0px 10px 0px;
+		border-bottom: 1px solid #dedede;
+		color: white;
+	}
+	#panel ul {
+		margin-left: -29px;
+		margin-right: -28px;
+		margin-top: -30px;
+		margin-bottom: -30px;
+	}
+	
+	#flip {
+    
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+	.content-main{
+	
+	
+	
+}
+	#menu {
+	margin-top: -200px;
+	}
+	#flip {
+	
+	/*oculta o menu flip*/
+	margin-top: 50px;
+}
+	
+	.content-main{
+	margin-left: -8px;
+	
+	}
+	
+	.texto {
+	text-align: justify;
+	margin-bottom: -10px;
+	margin-left: 160px;
+	margin-top: -100px;
+	}
+	.imagem{
+	
+	margin-top: -36px;
+	margin-left: 0px;
+}
+
+.title {
+	margin-left: 160px;
+	font-size: 10px;
+	
+}
+
+.title h3 {
+	font-size: 20px;
+}
+	}
+
+@media screen and (min-width: 1px) and (max-width: 500px) {
+	
+	.title {
+	margin-left: 15%;
+	
+	
+}
+	.content-main{
+	
+	
+	}
+	.imagem{
+	
+	margin-top: 20px;
+	margin-left: 30%;
+}
+	.texto{
+	
+	margin-left: 0px;
+	margin-top: 10px;
+	}
+	
+	}
